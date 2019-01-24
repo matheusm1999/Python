@@ -8,7 +8,7 @@ def carregar_busca():
     X = []
     Y = []
 
-    arquivo = open('C:/Users/mathe/OneDrive/Documentos/LABI/Python/Alura/MachineLearning/Cursos.csv','r')
+    arquivo = open('Cursos.csv','r')
     leitor = csv.reader(arquivo)
     next(leitor)
 
