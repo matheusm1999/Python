@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
 
-train = pd.read_csv("C:/Users/mathe/OneDrive/Documentos/LABI/Python/Python-Data-Science-and-Machine-Learning-Bootcamp/5.MachineLearning/RegressaoLogistica/titanic_train.csv")
+train = pd.read_csv("RegressaoLogistica/titanic_train.csv")
 
 print(train.head())
 
