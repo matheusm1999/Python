@@ -51,7 +51,7 @@ classificador = SVC(kernel = 'rbf',random_state=1,C = 3) #com o kernel  = linear
 classificador.fit(previsores,classe)
 resultado = classificador.predict(previsores_teste)
 
-#Agora, vou testar a acurácia do meu modelo
+#Testes com a acurácia do meu modelo
 from sklearn.metrics import confusion_matrix, accuracy_score
 precisao = accuracy_score(classe_teste, resultado)
 print('O algoritmo teve uma taxa de acerto de {}%'.format(precisao*100))
