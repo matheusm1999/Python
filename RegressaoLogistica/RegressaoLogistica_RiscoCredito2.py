@@ -1,6 +1,6 @@
 import pandas as pd
 
-base = pd.read_csv('C:/Users/mathe/OneDrive/Documentos/LABI/Python/MachineLearning/risco-credito2.csv')
+base = pd.read_csv('risco-credito2.csv')
 
 #Separando entre variáveis peditoras e classe
 previsores = base.iloc[:,0:4].values
