@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-base = pd.read_csv("C:/Users/mathe/OneDrive/Documentos/LABI/Python/MachineLearning/credit-data.csv")
+base = pd.read_csv("credit-data.csv")
 #base.describe()
 
 #base.loc[base['age'] < 0] # Vejo que tenho 3 idades menores que 0
