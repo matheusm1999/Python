@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-ad_data = pd.read_csv("C:/Users/mathe/OneDrive/Documentos/LABI/Python/Python-Data-Science-and-Machine-Learning-Bootcamp/5.MachineLearning/RegressaoLogistica/advertising.csv")
+ad_data = pd.read_csv("advertising.csv")
 
 ad_data.head()# Verifico as informações contidas no Data Frame
 
