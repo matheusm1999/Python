@@ -1,6 +1,6 @@
 import pandas as pd
 
-base = pd.read_csv("C:/Users/mathe/OneDrive/Documentos/LABI/Python/MachineLearning/census.csv")
+base = pd.read_csv("census.csv")
 
 #base.describe()
 #base.head() #Percebo que tenho tanto variáveis numéricas quanto categóricas, logo vou transformar tudo em numérico
