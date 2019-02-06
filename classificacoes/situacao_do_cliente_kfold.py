@@ -3,7 +3,7 @@ from collections import Counter
 import numpy as np
 from sklearn.model_selection import cross_val_score
 
-df = pd.read_csv('C:/Users/mathe/OneDrive/Documentos/LABI/Python/Alura/MachineLearning/situacao_do_cliente.csv' )
+df = pd.read_csv('situacao_do_cliente.csv' )
 X_df = df[['recencia','frequencia', 'semanas_de_inscricao']]
 Y_df = df['situacao']
 
